@@ -10,9 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!---------------------->
-		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-		<!---------Slick-Style-->
+		<link rel="stylesheet" type="text/css" href="./carousel/carousel.css"/>
+		<!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+		<!---------Carousel-Style-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -53,13 +53,14 @@
 
 				<!-- Work -->
 					<article id="work" class="panel secondary">
-						<div class="image">
-							<div class="slick__showroom">
-								<div>your content</div>
-								<div>your content</div>
-								<div>your content</div>
- 							 </div>
-							<img src="images/pic02.jpg" alt="" data-position="center center" />
+						<!-- <div class="image"> -->
+						<div>
+							<div class="carousel">
+								<div class="carousel__item">Content #1</div>
+								<div class="carousel__item">Content #2</div>
+								<div class="carousel__item">Content #3</div>
+							  </div>
+							<!-- <img src="images/pic02.jpg" alt="" data-position="center center" /> -->
 						</div>
 						<div class="content">
 							<ul class="actions animated spinX">
@@ -91,8 +92,8 @@
 									<p>In few words <br />
 									short</p>
 								</header>
-								<p>Hi I am front-end dev, what else i can say about myself. I am very creative person,, Time when I am not coding I like to drawing, my other passion is Taekwondo, unfortunately i had to stop. Instead I like going now to GYM.</p>
-								<p>  I like reading books and watching good movies. But the most important is I like spending time with  my family and my friends. </p>
+								<p>Hi I am front-end dev, what else i can say about myself. I am very creative person,, Time when I am not coding I like to drawing, my other passion is Taekwondo, also I like going to GYM.</p>
+								<p>  I like reading books and watching good movies. But the most important is that I like spending time with  my family and my friends.</p>
 							</div>
 						</div>
 					</article>
@@ -112,19 +113,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!------Slick Script-->
-			<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-			<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-			<script type="text/javascript" src="slick/slick.min.js"></script>
-
-			<!------Slick inline script-->
-			<script type="text/javascript">
-				$(document).ready(function(){
-				  $('.slick__showroom').slick({
-					setting-name: setting-value
-				  });
-				});
-			  </script>
-
+			<!---------->
 	</body>
 </html>

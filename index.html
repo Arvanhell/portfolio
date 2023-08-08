@@ -9,6 +9,10 @@
 		<title>ARV Front-End Dev</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!---------------------->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<!---------Slick-Style-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -25,7 +29,7 @@
 						<div class="content">
 							<div class="inner">
 								<header>
-									<h1>Welcome on my site </h1>
+									<h1>Welcome to my site </h1>
 									<p>My name is Cezary, most people call me Arv <br />
 										</p>
 								</header>
@@ -50,6 +54,11 @@
 				<!-- Work -->
 					<article id="work" class="panel secondary">
 						<div class="image">
+							<div class="slick__showroom">
+								<div>your content</div>
+								<div>your content</div>
+								<div>your content</div>
+ 							 </div>
 							<img src="images/pic02.jpg" alt="" data-position="center center" />
 						</div>
 						<div class="content">
@@ -96,13 +105,26 @@
 					</footer>
 
 			</div>
-
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!------Slick Script-->
+			<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="slick/slick.min.js"></script>
+
+			<!------Slick inline script-->
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $('.slick__showroom').slick({
+					setting-name: setting-value
+				  });
+				});
+			  </script>
 
 	</body>
 </html>
